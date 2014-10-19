@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.dominos.LaunchActivity"
+    android:orientation="vertical"
+    android:onClick="launchThemeActivity">
+
+    <TextView
+        android:text="DOMINOS\nCOLOR"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:textSize="50sp"/>
+    <TextView
+        android:text="Toucher l'écran pour commencer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+</LinearLayout>
